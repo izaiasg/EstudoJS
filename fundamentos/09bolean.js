@@ -9,3 +9,9 @@ console.log(isAtivo);
 console.log(!!3);
 console.log(!!'texto');
 console.log(!!-3);
+
+// Falsos
+
+console.log(!!0);
+console.log(!!'');
+console.log(!!null);
