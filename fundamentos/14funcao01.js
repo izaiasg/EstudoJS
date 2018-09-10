@@ -23,14 +23,14 @@ imprimirSoma(21, 54)
 
 // Declarando uma função com retorno
 /* 
-    Mesmo restonando valor
+    Mesmo retornando valor
     Não precisa dizer o que 
     ela retorna (Tipagem Fraca)
     Caso b não seja passado 
     é setado como 0 padrão
 */
 function soma(a, b = 0){ 
-    return a + b 
+    return a + b
 }
 
 console.log(soma(2, 3))

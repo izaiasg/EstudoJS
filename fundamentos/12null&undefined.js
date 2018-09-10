@@ -24,7 +24,7 @@ console.log(teste)
     diferente de outras linguagens que 
     pegam lixo de memória. 
 
-    - Tomar coidado com os valores null.
+    - Tomar cuidado com os valores null.
     Pois pode gerar problemas. Uma saida
     Seria utilizar um valor padrão. E caso
     realmente seja preciso, dar prioridade 
