@@ -43,3 +43,8 @@ const o2 = { c: 3, a: 4 }
 const obj = Object.assign(desc, o1, o2) // O primeiro é o objeto de destino, seguido dos que irão concatenar nele.
 
 console.log(obj)
+
+Object.freeze(obj) // Congela o obj
+
+obj.a = 2
+console.log(obj.a)
